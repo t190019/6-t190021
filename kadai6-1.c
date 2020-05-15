@@ -5,8 +5,8 @@ int main() {
 
     printf("%f\n",x);
 
-    for (i=1.0;i<=20;i++) {
-        x=1.0+1/i;
+    for (i=0;i<20;i++) {
+        x=1.0+1/x;
         printf("%f\n",x);
     }
 }
